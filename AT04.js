@@ -2,7 +2,7 @@ let numeros = [];
 let pares = [];
 
 for (let i = 0; i < 5; i++) {
-    numeros[i] = parseInt(prompt("Digite um número:"));
+    numeros[i] = Number(prompt("Digite um número:"));
 }
 
 for (let i = 0; i < 5; i++) {
@@ -11,4 +11,4 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-console.log(pares);
+alert(pares);
